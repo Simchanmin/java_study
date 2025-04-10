@@ -38,7 +38,7 @@ public class test {
                 break;
         }while(x == 0);
 
-        System.out.println(alsum);
+        System.out.println("총"+alsum+"원 입니다.");
 
     }
 }
