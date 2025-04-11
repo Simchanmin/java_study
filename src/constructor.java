@@ -1,11 +1,18 @@
+import java.util.Scanner;
+
 public class constructor {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("브랜드 입력 :");
+        String brand = sc.next();
+        System.out.println("스피드 입력 :");
+        int speed = sc.nextInt();
         student Mystudent = new student();
         Mystudent.age = 23;
         Mystudent.name = "심찬민";
         Mystudent.info();
 
-        Car Mycar = new Car("도요타", 130);
+        Car Mycar = new Car(brand, speed);
         Mycar.Nspeed();
         Car Mycar2 = new Car();
         Mycar2.Nspeed();
